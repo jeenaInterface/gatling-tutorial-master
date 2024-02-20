@@ -7,7 +7,7 @@ class PostPutDeleteDemo extends  Simulation{
   //protocol
 
   val httpProtocol = http
-  .baseUrl("https://reqres.in/api")
+    .baseUrl("https://reqres.in/api")
 
 //scenario
   val createuserscn =scenario(scenarioName = "create user")
